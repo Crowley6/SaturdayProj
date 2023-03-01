@@ -1,0 +1,52 @@
+.RouterClick {
+    color: #7E7B8E;
+    text-decoration: underline solid;
+    position: relative;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 2vw;
+}
+
+.RouterClick2 {
+    color: black;
+    text-decoration: underline solid;
+    position: relative;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 2vw;
+}
+
+.inactive {
+    color: white;
+    text-decoration: underline solid;
+    position: relative;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 2vw;
+}
+
+@media screen and (max-width:1080px) {
+    .RouterClick {
+        color: #C6B8F8;
+        text-decoration: none;
+        background-color: #363150;
+        transition: all 0.05s ease-out;
+        transform: scale(1);
+    }
+
+    .RouterClick:focus {
+        text-decoration: solid underline;
+
+        transition: all 0.05s ease-out;
+        transform: scale(1.15);
+    }
+}
