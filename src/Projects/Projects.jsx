@@ -1,12 +1,12 @@
 import React from "react";
 import './Projects.css';
 
-const ProjectsMap = () => {
+const ProjectsMap = (props) => {
     return (
         <div className="Projects">
-            <div className="ProjectsImg">1</div>
-            <h1 className="ProjectsTextH1">1</h1>
-            <p className="ProjectsText">1</p>
+            <div className="ProjectsImg">{props.img}</div>
+            <h1 className="ProjectsTextH1">{props.h1}</h1>
+            <p className="ProjectsText">{props.name}</p>
             <button className="ProjectsButton">Подробнее</button>
         </div>
     )
@@ -14,6 +14,9 @@ const ProjectsMap = () => {
 
 class Projects extends React.Component {
     render() {
+        debugger
+        let Projects = this.props.store.ProjectsData.Projects;
+        let MapdProjects = Projects.map(mapd => <ProjectsMap img={mapd.img} h1={mapd.h1} name={mapd.name} />);
         return (
             <div>
                 <div className='ProjectsBody'>
@@ -34,8 +37,7 @@ class Projects extends React.Component {
                         </ul>
                     </div>
                     <div className='AllProjects'>
-                        <ProjectsMap />
-                        <ProjectsMap />
+                        {MapdProjects}
                         <div className='ProjectsFooter'>
                             <div></div>
                             <div className='FooterText'>

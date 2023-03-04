@@ -19,7 +19,7 @@ const App = (props) => {
       <div className='body'>
         <div className='body_header'>
           <div className='body_header_border'>
-            <img className='body_header_border_img' width='40px' height='40px' />
+            <div className='body_header_border_img' width='40px' height='40px' />
             <div className='body_header_border_logo'></div>
             <div className='body_header_border_line'></div>
             <div className='body_header_border_name'>ENGINEER</div>
@@ -33,7 +33,7 @@ const App = (props) => {
 
         <Routes>
           <Route path='/Main' element={<MainContainer />} />,
-          <Route path='/Projects' element={<Projects />} />
+          <Route path='/Projects' element={<Projects store={props.store} />} />
           <Route path='/Platform' element={<Platform />} />
           <Route path='/Info' />
         </Routes>

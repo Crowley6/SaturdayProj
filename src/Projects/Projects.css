@@ -138,7 +138,7 @@
     min-height: 484px;
     left: 0px;
     background: #242230;
-    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url();
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/footerImg.svg);
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
@@ -163,7 +163,7 @@
 }
 
 .telegram {
-    background: url();
+    background: url(../Pictures/telegram.png);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
@@ -172,7 +172,7 @@
 }
 
 .youtube {
-    background: url();
+    background: url(../Pictures/youtube.png);
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
