@@ -82,19 +82,20 @@
     color: rgba(36, 34, 48, 1);
     margin: 40px 10px;
     box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 347px 1fr 1fr 1fr;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
 }
 
 .ProjectsImg {
-    width: 406.49px;
-    height: 347px;
-    margin: 5% 6%;
+    width: 100%;
     border-radius: 15px;
 }
 
 .ProjectsTextH1 {
     padding: 1.5% 3.5%;
-    width: 298px;
-    height: 24px;
+    width: 100%;
     font-family: 'Abhaya Libre Medium';
     font-style: normal;
     font-weight: 500;
@@ -104,8 +105,7 @@
 
 .ProjectsText {
     padding: 1.5% 3.5%;
-    width: 418px;
-    height: 77px;
+    width: 100%;
     font-family: 'Abhaya Libre Medium';
     font-style: normal;
     font-weight: 500;
@@ -114,17 +114,21 @@
 }
 
 .ProjectsButton {
+    justify-self: end;
     margin-left: 3.5%;
-    width: 150px;
-    height: 50px;
+    position: relative;
+    bottom: 1px;
+    width: 175px;
+    height: 67.5px;
     background: linear-gradient(180deg, #9C8FC8 0%, #242230 100%);
-    border-radius: 15px;
+    border-radius: 20px;
     font-family: 'Abhaya Libre ExtraBold';
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
     color: #F5F5F5;
+    justify-self: start;
 }
 
 .ProjectsFooter {
@@ -196,10 +200,12 @@
     .ProjectsBodyText2 {
         padding: 0 20px;
     }
+
     .ProjectsBodyText2 ul {
         padding: 0;
-        padding: 0 0 115px 0 ;
+        padding: 0 0 115px 0;
     }
+
     .ProjectsBodyText2 ul li {
         list-style: none;
     }
@@ -210,5 +216,17 @@
 
     .AllProjects {
         min-width: auto;
+    }
+
+    .Projects {
+        width: 275px;
+        height: 380px;
+        grid-template-rows: 150px 1fr 1fr 1fr;
+        border-radius: 25px;
+    }
+    .ProjectsButton {
+        height: 50px;
+        width: 150px;
+        border-radius: 15px;
     }
 }

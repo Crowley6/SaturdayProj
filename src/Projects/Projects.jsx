@@ -4,10 +4,10 @@ import './Projects.css';
 const ProjectsMap = () => {
     return (
         <div className="Projects">
-            <div className="ProjectsImg"></div>
-            <h1 className="ProjectsTextH1"></h1>
-            <p className="ProjectsText"></p>
-            <button className="ProjectsButton"></button>
+            <div className="ProjectsImg">1</div>
+            <h1 className="ProjectsTextH1">1</h1>
+            <p className="ProjectsText">1</p>
+            <button className="ProjectsButton">Подробнее</button>
         </div>
     )
 }
