@@ -1,6 +1,17 @@
 import React from "react";
 import './Projects.css';
 
+const ProjectsMap = () => {
+    return (
+        <div className="Projects">
+            <div className="ProjectsImg"></div>
+            <h1 className="ProjectsTextH1"></h1>
+            <p className="ProjectsText"></p>
+            <button className="ProjectsButton"></button>
+        </div>
+    )
+}
+
 class Projects extends React.Component {
     render() {
         return (
@@ -23,6 +34,8 @@ class Projects extends React.Component {
                         </ul>
                     </div>
                     <div className='AllProjects'>
+                        <ProjectsMap />
+                        <ProjectsMap />
                         <div className='ProjectsFooter'>
                             <div></div>
                             <div className='FooterText'>
