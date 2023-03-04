@@ -207,24 +207,27 @@
     font-family: 'Abhaya Libre ExtraBold';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 35px;
     background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    width: min-content;
+    margin: 0 auto;
 }
 
 .PlatformElipseIext2 {
-    margin: 13px;
+    margin: 13px auto;
     font-family: 'Abhaya Libre Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+    max-width: 300px;
 }
 
 .footer_img {
@@ -287,13 +290,22 @@
         align-items: center;
         padding: 0;
         text-align: center;
+        height: 800px;
+        padding: 20px 0;
+    }
+    .ArdOpisanie {
+        max-width: 280px;
+    }
+    .AboutContent {
+        width: auto;
     }
 
     .claxes {
-        min-width: auto;
-        width: 300px;
+        min-width: 200px;
+        width: 280px;
         background-size: 100%;
         margin: 0 auto;
+        height: 400px;
     }
 
     .AboutBack {
@@ -323,6 +335,7 @@
 
     .PlatformInfo {
         min-width: auto;
+        padding: 100px 0;
     }
 
     .PlatformInfo1 {
@@ -330,7 +343,7 @@
     }
 
     .PlatformInfo2 {
-        width: auto;
+        width: 100%;
         font-size: 26px;
         padding: 40px 20px;
         height: auto;
@@ -342,6 +355,13 @@
 
     .PlatformElipse>div {
         margin: 0;
+        min-width: 200px;
+        width: 100%;
     }
 
+    .PlatformElipseImg {
+        width: auto;
+        background-size: contain;
+        background-position: center;
+    }
 }

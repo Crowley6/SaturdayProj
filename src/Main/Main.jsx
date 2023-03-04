@@ -20,14 +20,16 @@ const Main = () => {
                 </div>
             </div>
             <div>
-                <div className="details">
-                    <div className='details_tinkercad_1'></div>
-                    <div className='details_tinkercad'>
-                        <a className='details_tinkercad_2'>Все проекты были реализованы в среде моделирования </a>
-                        <a className='details_tinkercad_3'>TinkerCad</a>
-                        <p className='details_tinkercad_4'> Бесплатное веб-приложение для 3D проектирования, <br />
-                            удивительно простой и одновременно мощный <br /> эмулятор, с которого можно начинать обучение
-                            <br /> электронике и робототехнике</p>
+                <div className='box_details'>
+                    <div className="details">
+                        <div className='details_tinkercad_1'></div>
+                        <div className='details_tinkercad'>
+                            <a className='details_tinkercad_2'>Все проекты были реализованы в среде моделирования </a>
+                            <a className='details_tinkercad_3'>TinkerCad</a>
+                            <p className='details_tinkercad_4'> Бесплатное веб-приложение для 3D проектирования, <br />
+                                удивительно простой и одновременно мощный <br /> эмулятор, с которого можно начинать обучение
+                                <br /> электронике и робототехнике</p>
+                        </div>
                     </div>
                 </div>
 
@@ -49,10 +51,10 @@ const Main = () => {
             <div className='examplearduino'>
                 <a>Примеры проектов</a>
                 <div className='examplearduino_img'>
-                    <img className='examplearduino_img_item' src={proj1} />
-                    <img className='examplearduino_img_item' src={proj2} />
-                    <img className='examplearduino_img_item' src={proj3} />
-                    <img className='examplearduino_img_item' src={proj4} />
+                    <img className='examplearduino_img_item' src={proj1} width='500px' height='350px' />
+                    <img className='examplearduino_img_item' src={proj2} width='500px' height='350px' />
+                    <img className='examplearduino_img_item' src={proj3} width='500px' height='350px' />
+                    <img className='examplearduino_img_item' src={proj4} width='500px' height='350px' />
                     <div className='AboutPlatformFooter'>
                         <div></div>
                         <div className='FooterText'>

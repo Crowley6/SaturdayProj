@@ -12,7 +12,6 @@ let MRouters = (props) => {
 }
 
 const App = (props) => {
-  debugger
   let MapRouters = props.store.MainData.RouterBtns.map(m => <MRouters url={m.url} name={m.name} flag={m.flag} />);
 
   return (
