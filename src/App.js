@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import moduleCSS from './App.module.css';
+import Info from './InfoAboutThisProject/Info';
 import MainContainer from './Main/MainContainer';
 import Platform from './Platform/Platform';
 import Projects from './Projects/Projects';
@@ -35,6 +36,7 @@ const App = (props) => {
           <Route path='/Main' element={<MainContainer />} />,
           <Route path='/Projects' element={<Projects store={props.store} />} />
           <Route path='/Platform' element={<Platform />} />
+          <Route path='/Info' element={<Info />} />
           <Route path='/Info' />
         </Routes>
       </div>

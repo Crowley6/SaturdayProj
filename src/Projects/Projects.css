@@ -91,6 +91,7 @@
 .ProjectsImg {
     width: 100%;
     border-radius: 15px;
+    height: 347px;
 }
 
 .ProjectsTextH1 {
@@ -223,10 +224,16 @@
         height: 380px;
         grid-template-rows: 150px 1fr 1fr 1fr;
         border-radius: 25px;
+        padding: 10px 0;
     }
+
     .ProjectsButton {
         height: 50px;
         width: 150px;
         border-radius: 15px;
+    }
+
+    .ProjectsImg {
+        height: 150px;
     }
 }

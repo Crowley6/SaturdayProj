@@ -7,7 +7,7 @@ const ProjectsMap = (props) => {
             <div className="ProjectsImg">{props.img}</div>
             <h1 className="ProjectsTextH1">{props.h1}</h1>
             <p className="ProjectsText">{props.name}</p>
-            <button className="ProjectsButton">Подробнее</button>
+            <a href="/Info"><button className="ProjectsButton" >Подробнее</button></a>
         </div>
     )
 }
