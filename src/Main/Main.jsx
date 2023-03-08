@@ -4,7 +4,7 @@ import proj1 from '../Pictures/proj1.svg';
 import proj2 from '../Pictures/proj2.svg';
 import proj3 from '../Pictures/proj3.png';
 import proj4 from '../Pictures/proj4.png';
-
+//ошибка, не копировать, забагнуто
 const Main = () => {
     return (
         <>

@@ -24,19 +24,6 @@
     text-fill-color: transparent;
 }
 
-.infoHeadImg {
-    display: flex;
-    position: relative;
-    align-items: center;
-    height: 450px;
-}
-
-.infoHeadImg img {
-    position: relative;
-    border: 1px solid black;
-    box-shadow: 0px 0px 10px grey;
-}
-
 .ismain {
     position: relative;
     display: flex;
@@ -326,5 +313,83 @@ video {
 
     .InfoAboutProject {
         width: 280px;
+    }
+}
+
+
+.infoHeadImg {
+    color: wheat;
+    position: relative;
+    right: 0;
+    float: right;
+    width: 100%;
+    align-items: right;
+    overflow: hidden;
+}
+
+.slider-wrapper ul {
+    min-width: 100%;
+}
+
+.slider-wrapper ul li {
+    display: flex;
+    min-width: 100%;
+    position: relative;
+}
+
+.slider-wrapper ul li div {
+    min-width: 100%;
+
+}
+
+.iimain .Carousel {
+
+    display: flex;
+}
+
+
+.carousel {
+    display: none;
+}
+
+.carousel-slider {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.carousel-slider p {
+    text-align: center;
+}
+.carousel-slider button {
+    background-color: black;
+    color: wheat;
+    width: min-content;
+    margin: 0 auto;
+}
+.carousel-slider button::after {
+}
+
+.carousel-slider ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.carousel-slider ul li div {
+    width: 100%;
+}
+
+.control-next::after {
+    content: 'назад';
+}
+
+.control-prev::after {
+    content: 'след';
+}
+
+@media screen and (min-width:1080px) {
+    .infoHeadImg {
+        width: 1080px;
     }
 }

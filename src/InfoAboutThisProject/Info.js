@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Info.css';
 import jpg1 from '../Pictures/lowsales.png';
 import srtl1 from '../Pictures/strl1.svg';
+import { Carousel } from 'react-responsive-carousel';
 
 const Info = () => {
     return (
@@ -19,9 +20,14 @@ const Info = () => {
 
                 <div className='infoHeadImg'>
                     <div className='iimain'>
-                        <img className='ii1' alt='Картина' />
-                        <img className='ii2' alt='Картина' />
-                        <img className='ii3' alt='Картина' />
+                        <Carousel className='Carousel'>
+
+                            {/* маппишь, и все, пример есть в projects.jsx  */}
+                            <div><img src="" alt='aaa' /></div>
+                            <div><img src="" alt='aaa' /></div>
+                            <div><img src="" alt='aaa' /></div>
+                                    
+                        </Carousel>
                     </div>
                 </div>
                 <div className='infoHeadLNF'>

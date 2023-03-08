@@ -1,3 +1,4 @@
+/* ошибка, не копировать, забагнуто */
 * {
     box-sizing: border-box;
 }
@@ -309,9 +310,11 @@
     .box_engineer {
         height: 600px;
     }
+
     .box_details {
         position: relative;
     }
+
     .details {
         flex-direction: column;
         text-align: center;
@@ -324,10 +327,12 @@
     .details_tinkercad p {
         text-align: center;
     }
+
     .details_tinkercad {
         height: auto;
         padding: 25px 0 0 0;
     }
+
     .details_tinkercad_2 {
         font-size: 28px;
         width: auto;
