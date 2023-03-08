@@ -33,7 +33,7 @@ const Info = () => {
             <div className='InfoAboutProject'>
                 <div className='infoAbout'>
                     <h1 className='infoAboutH1'>Схема соединения</h1>
-                    <img className='infoAboutImg' src={'1.jpg'} />
+                    <img className='infoAboutImg' src={'1.jpg'} alt='Проект не отображается' />
                     <div className='InfoAboutModules'>
                         <div className='IAM1'>Основой для программирования и создание схемы  проекта  реализованы на платформе <span>TinkerCad</span></div>
                         <div className='IAM2'>
@@ -49,13 +49,13 @@ const Info = () => {
                 <div className='infoAboutWasCreated'>
                     <div className='infoAWCCode'>
                         <h1 className='infoAWCH1'>Код проекта</h1>
-                        <iframe src={'Project.html'}></iframe>
+                        <iframe src={'Project.html'} title='Код проекта'></iframe>
                     </div>
                     <div className='infoAWCText'>
                         Видеоролик как работает модуль, можно посмотреть тут:
                     </div>
                     <div className='infoAWCVideo'>
-                        <video controls="controls" poster={jpg1} width='970px' height='500px'>
+                        <video controls="controls" poster={jpg1}>
                             <source src='1.mp4' />
                         </video>
                         <div className='infoFooter'>

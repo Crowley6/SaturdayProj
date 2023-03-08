@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.css';
 import proj1 from '../Pictures/proj1.svg';
 import proj2 from '../Pictures/proj2.svg';
-import proj3 from '../Pictures/proj3.svg';
+import proj3 from '../Pictures/proj3.png';
 import proj4 from '../Pictures/proj4.png';
 
 const Main = () => {
@@ -10,7 +10,7 @@ const Main = () => {
         <>
             <div className='box_engineer'>
                 <div className='engineer'>
-                    <a>ИНЖЕНЕРИЯ</a>
+                    <p>ИНЖЕНЕРИЯ</p>
                     <p>Платформа выделяющая аспекты <br />
                         проектирования и реализацию схем на <br />
                         практике с помощью конструктора <br />
@@ -24,8 +24,8 @@ const Main = () => {
                     <div className="details">
                         <div className='details_tinkercad_1'></div>
                         <div className='details_tinkercad'>
-                            <a className='details_tinkercad_2'>Все проекты были реализованы в среде моделирования </a>
-                            <a className='details_tinkercad_3'>TinkerCad</a>
+                            <p className='details_tinkercad_2'>Все проекты были реализованы в среде моделирования </p>
+                            <p className='details_tinkercad_3'>TinkerCad</p>
                             <p className='details_tinkercad_4'> Бесплатное веб-приложение для 3D проектирования, <br />
                                 удивительно простой и одновременно мощный <br /> эмулятор, с которого можно начинать обучение
                                 <br /> электронике и робототехнике</p>
@@ -49,12 +49,12 @@ const Main = () => {
                 </div>
             </div>
             <div className='examplearduino'>
-                <a>Примеры проектов</a>
+                <p>Примеры проектов</p>
                 <div className='examplearduino_img'>
-                    <img className='examplearduino_img_item' src={proj1} width='500px' height='350px' />
-                    <img className='examplearduino_img_item' src={proj2} width='500px' height='350px' />
-                    <img className='examplearduino_img_item' src={proj3} width='500px' height='350px' />
-                    <img className='examplearduino_img_item' src={proj4} width='500px' height='350px' />
+                    <img className='examplearduino_img_item' src={proj1} width='500px' height='350px' alt='Проект не отображается' />
+                    <img className='examplearduino_img_item' src={proj2} width='500px' height='350px' alt='Проект не отображается' />
+                    <img className='examplearduino_img_item' src={proj3} width='500px' height='350px' alt='Проект не отображается' />
+                    <img className='examplearduino_img_item' src={proj4} width='500px' height='350px' alt='Проект не отображается' />
                     <div className='AboutPlatformFooter'>
                         <div></div>
                         <div className='FooterText'>
